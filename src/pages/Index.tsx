@@ -11,6 +11,7 @@ import Testimonials from '@/components/sections/Testimonials';
 import Footer from '@/components/sections/Footer';
 
 const Index = () => {
+  console.log("Index component is rendering!"); // Debug log
   return (
     <div className="px-[33px] max-md:pl-5">
       <div className="bg-white flex flex-col overflow-hidden items-stretch max-md:max-w-full">
